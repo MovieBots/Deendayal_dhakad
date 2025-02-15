@@ -61,10 +61,10 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', 'deendayaldhaked@ybl')
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://keshavptdr98:D8lbdQUW4euV07l4@cluster0.dok926y.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://keshavptdr98:D8lbdQUW4euV07l4@cluster0.dok926y.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Clustor0')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://arpitgavla121:4hofZNIFGQyXCi86@cluster0.zh4ni.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://arpitgavla121:4hofZNIFGQyXCi86@cluster0.zh4ni.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Clustor0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
 
 # ============================
 # Movie Notification & Update Settings
