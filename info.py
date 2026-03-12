@@ -85,8 +85,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+RsQwXu9PiiQ1MjNl')  
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://arolinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '400943cae6dd48a8143eba5a5f055d4bad4c92f8')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://mdiskshort.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '41e0c4c6adc77f28c5f19ce4369edef38155e317')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+RsQwXu9PiiQ1MjNl')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
