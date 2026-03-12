@@ -48,7 +48,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '')  # Channel/Group ID for force sub
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002345243463').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002374561171')  # Support group id (make sure bot is admin)
 reqst_channel = environ.get('REQST_CHANNEL_ID', 'https://t.me/MovieRequestPremium_bot')  # Request channel id (make sure bot is admin)
-AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '-1002495956089').split()]
+AUTH_CHANNEL = [int(fch) if id_pattern.search(fch) else fch for fch in environ.get('AUTH_CHANNEL', '').split()]
 MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002495956089').split() if re.match(r'^-?\d+$', channel_id)]  # Channel for force sub (make sure bot is admin)
 
 
@@ -85,8 +85,8 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+RsQwXu9PiiQ1MjNl')  
 # Link Shortener Configuration
 # ============================
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '4d0ef91df5b74f843ba1ef1223d66d86b6f6f81a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://arolinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '400943cae6dd48a8143eba5a5f055d4bad4c92f8')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+RsQwXu9PiiQ1MjNl')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
